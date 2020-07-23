@@ -11,16 +11,21 @@
 
 GoogleChrome の「設定」→「拡張機能」に移動して、「デベロッパーモード」を有効にしてください。
 その後、「パッケージ化されていない拡張機能を読み込む」を開き、このリポジトリのフォルダを指定して GoogleChrome に読み込んでください。
+![](./screen_shot/screen_shot_01.png)
+![](./screen_shot/screen_shot_02.png)
 
 ### 使用方法
 
-インストール後、この拡張機能のアイコンをクリックすると小さなウインドウがポップアップで表示されます。
-「Red」「Green」「Blue」「Gray」「Gold」「Siler」をそれぞれクリックすると、
-現在開いてる Web ページの body の background-color が各色に変更されます。
+- インストール後、この拡張機能のアイコンをクリックすると小さなウインドウがポップアップで表示されます。
+  ![](./screen_shot/screen_shot_03.png)
+- 「Red」「Green」「Blue」「Gray」「Gold」「Siler」をそれぞれクリックすると、<br>
+  現在開いてる Web ページの body の background-color が各色に変更されます。
+- またその下テキストエリアに RGB カラーコードを入力して「Change by RGB」ボタンをクリックすると<br>
+  現在開いてる Web ページの body の background-color が入力した RGB コードの色に変更されます。
+  ![](./screen_shot/screen_shot_04.png)
+  ![](./screen_shot/screen_shot_05.png)
 
-またその下テキストエリアに RGB カラーコードを入力してそのすぐ下のボタンをクリックするとその RGB コードの色に同様に現在開いてる Web ページの body の background-color が各色に変更されます。
-
-背景色を変更したあとに「Reset Color」ボタンを押すと背景色が元の色に戻ります。
+- 背景色を変更したあとに「Reset Color」ボタンを押すと背景色が元の色に戻ります。
 
 ## 開発環境　/ 使用した技術
 
